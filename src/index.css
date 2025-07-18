@@ -8,6 +8,22 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Dashboard specific colors */
+    --dashboard-sidebar: 210 25% 16%;
+    --dashboard-sidebar-text: 210 15% 85%;
+    --dashboard-sidebar-active: 210 20% 20%;
+    --dashboard-sidebar-hover: 210 20% 18%;
+    
+    --dashboard-header: 0 0% 100%;
+    --dashboard-main: 0 0% 96%;
+    --dashboard-content: 0 0% 100%;
+    
+    --dashboard-accent: 210 100% 50%;
+    --dashboard-text-primary: 0 0% 15%;
+    --dashboard-text-secondary: 0 0% 45%;
+    --dashboard-text-orange: 15 100% 50%;
+    
+    /* Base design system */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -17,7 +33,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 210 100% 50%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -36,23 +52,17 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
 
-    --radius: 0.5rem;
+    --radius: 0.375rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Sidebar colors for dashboard */
+    --sidebar-background: hsl(var(--dashboard-sidebar));
+    --sidebar-foreground: hsl(var(--dashboard-sidebar-text));
+    --sidebar-primary: hsl(var(--dashboard-sidebar-active));
+    --sidebar-primary-foreground: hsl(var(--dashboard-sidebar-text));
+    --sidebar-accent: hsl(var(--dashboard-sidebar-hover));
+    --sidebar-accent-foreground: hsl(var(--dashboard-sidebar-text));
+    --sidebar-border: hsl(var(--dashboard-sidebar));
+    --sidebar-ring: hsl(var(--dashboard-accent));
   }
 
   .dark {

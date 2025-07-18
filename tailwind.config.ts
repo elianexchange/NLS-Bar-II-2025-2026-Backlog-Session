@@ -61,6 +61,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				dashboard: {
+					sidebar: 'hsl(var(--dashboard-sidebar))',
+					'sidebar-text': 'hsl(var(--dashboard-sidebar-text))',
+					'sidebar-active': 'hsl(var(--dashboard-sidebar-active))',
+					'sidebar-hover': 'hsl(var(--dashboard-sidebar-hover))',
+					header: 'hsl(var(--dashboard-header))',
+					main: 'hsl(var(--dashboard-main))',
+					content: 'hsl(var(--dashboard-content))',
+					accent: 'hsl(var(--dashboard-accent))',
+					'text-primary': 'hsl(var(--dashboard-text-primary))',
+					'text-secondary': 'hsl(var(--dashboard-text-secondary))',
+					'text-orange': 'hsl(var(--dashboard-text-orange))'
 				}
 			},
 			borderRadius: {
