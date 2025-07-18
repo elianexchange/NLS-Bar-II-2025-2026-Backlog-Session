@@ -1,6 +1,6 @@
 import nlsLogo from "@/assets/nls-logo.png";
 
-export function DashboardContent() {
+export function DownloadOtherApplicationPage() {
   return (
     <div className="flex-1 bg-dashboard-main p-6">
       <div className="bg-dashboard-content rounded-lg shadow-sm p-8">
