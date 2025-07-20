@@ -10,9 +10,9 @@ import { toast } from "sonner";
 
 export function EditFormPage2() {
   const [formData, setFormData] = useState({
-    profile: "EBIYE",
-    surname: "EBIYE",
-    otherNames: "GODSWILL NEHIDUPHINI",
+    profile: "ORANYELI DAVID AFAM",
+    surname: "ORANYELI",
+    otherNames: "DAVID AFAM",
     dateOfBirth: "23/08/2006",
     email: "EBIYEGODSWILL9@GMAIL.COM",
     nationality: "Nigerian",

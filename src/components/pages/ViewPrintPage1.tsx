@@ -35,8 +35,12 @@ export function ViewPrintPage1() {
               <div className="text-right">
                 <p className="text-sm font-semibold">Applicant's Passport</p>
                 <div className="w-24 h-32 border-2 border-gray-300 bg-red-100 flex items-center justify-center mt-2">
-                  <div className="w-20 h-28 bg-white border border-gray-400 flex items-center justify-center">
-                    <span className="text-xs text-gray-500">Photo</span>
+                  <div className="w-20 h-28 bg-white border border-gray-400 overflow-hidden">
+                    <img 
+                      src="/src/assets/applicant-passport.jpg" 
+                      alt="Applicant's Passport Photo" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>

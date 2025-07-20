@@ -8,7 +8,7 @@ import { toast } from "sonner";
 
 export function EditFormPage1() {
   const [formData, setFormData] = useState({
-    profile: "EBIYE",
+    profile: "ORANYELI DAVID AFAM",
     secondarySchool: "OGU GRAMMAR SCHOOL, OGU",
     secondarySchoolLocation: "OGU (ATISSA ), YENAGOA BAYELSA STATE",
     secondarySchoolFrom: "2010",

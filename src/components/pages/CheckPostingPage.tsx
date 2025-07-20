@@ -21,7 +21,7 @@ export function CheckPostingPage() {
           <div className="space-y-6">
             <div>
               <label className="block text-sm text-gray-600 mb-1">Matric Number</label>
-              <div className="bg-gray-100 p-3 rounded">LAW/170174</div>
+              <div className="bg-gray-100 p-3 rounded">LAW/190319</div>
             </div>
 
             <div>
@@ -38,11 +38,11 @@ export function CheckPostingPage() {
               </div>
               <div>
                 <label className="block text-sm text-gray-600 mb-1">Surname</label>
-                <div className="bg-gray-100 p-3 rounded text-sm">EBIYE</div>
+                <div className="bg-gray-100 p-3 rounded text-sm">ORANYELI</div>
               </div>
               <div>
                 <label className="block text-sm text-gray-600 mb-1">Othernames</label>
-                <div className="bg-gray-100 p-3 rounded text-sm">GODSWILL INEIBOLUOFINI</div>
+                <div className="bg-gray-100 p-3 rounded text-sm">DAVID AFAM</div>
               </div>
               <div>
                 <label className="block text-sm text-gray-600 mb-1">Admission Status</label>

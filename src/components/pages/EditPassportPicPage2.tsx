@@ -8,7 +8,7 @@ import { toast } from "sonner";
 
 export function EditPassportPicPage2() {
   const [formData, setFormData] = useState({
-    surname: "EBIYE",
+    surname: "ORANYELI",
     otherNames: "",
     gender: "",
     dob: "23-Aug"

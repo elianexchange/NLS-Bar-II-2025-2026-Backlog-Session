@@ -35,8 +35,12 @@ export function ViewPrintPage2() {
               <div className="text-right">
                 <p className="text-sm font-semibold">Applicant's Passport</p>
                 <div className="w-24 h-32 border-2 border-gray-300 bg-red-100 flex items-center justify-center mt-2">
-                  <div className="w-20 h-28 bg-white border border-gray-400 flex items-center justify-center">
-                    <span className="text-xs text-gray-500">Photo</span>
+                  <div className="w-20 h-28 bg-white border border-gray-400 overflow-hidden">
+                    <img 
+                      src="/src/assets/applicant-passport.jpg" 
+                      alt="Applicant's Passport Photo" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
@@ -59,7 +63,7 @@ export function ViewPrintPage2() {
                     <p><span className="font-semibold">Title:</span> MR.</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Surname:</span> EBIYE</p>
+                    <p><span className="font-semibold">Surname:</span> ORANYELI</p>
                   </div>
                 </div>
                 
@@ -214,7 +218,7 @@ export function ViewPrintPage2() {
                   <p><span className="font-semibold">DECLARATION BY APPLICANT</span></p>
                   
                   <div className="mt-4 space-y-2">
-                    <p className="text-sm">I EBIYE GODSWILL NEHIDUPHINI,</p>
+                    <p className="text-sm">I ORANYELI DAVID AFAM,</p>
                     <p className="text-sm">of NO.1, NEW SURVIVORS' HOSPITAL ROAD IGBOGENE, YENAGOA BAYELSA STATE</p>
                     <p className="text-sm">I hereby solemnly declare as follows:-</p>
                   </div>

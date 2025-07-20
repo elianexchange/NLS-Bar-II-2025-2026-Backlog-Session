@@ -31,14 +31,14 @@ export function AdmissionLetterPage() {
 
               <div className="text-left space-y-4">
                 <div className="text-sm">
-                  <strong>Matric Number:</strong> LAW/170174
+                  <strong>Matric Number:</strong> LAW/190319
                 </div>
 
                 <div className="text-sm space-y-1">
                   <div>c/o Nigerian Law School</div>
                   <div>Bwari-Abuja</div>
                   <div>Nigeria</div>
-                  <div><strong>Dear EBIYE GODSWILL INEIBOLUOFINI,</strong></div>
+                  <div><strong>Dear ORANYELI DAVID AFAM,</strong></div>
                 </div>
 
                 <div className="text-sm space-y-4">
@@ -87,8 +87,12 @@ export function AdmissionLetterPage() {
           <div className="w-64">
             <div className="bg-red-100 p-4 rounded-lg text-center mb-4">
               <div className="text-sm text-gray-600 mb-2">Applicant's Passport</div>
-              <div className="w-32 h-40 bg-red-200 mx-auto rounded flex items-center justify-center">
-                <div className="text-gray-500 text-xs">Passport Photo</div>
+              <div className="w-32 h-40 mx-auto rounded overflow-hidden border border-gray-300">
+                <img 
+                  src="/src/assets/applicant-passport.jpg" 
+                  alt="Applicant's Passport Photo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div className="text-right text-sm text-gray-600">
