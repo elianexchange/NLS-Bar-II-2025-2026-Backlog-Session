@@ -5,7 +5,7 @@ export function DashboardPage() {
         {/* Welcome Message */}
         <div className="mb-8">
           <h2 className="text-2xl font-semibold text-dashboard-text-primary mb-6">
-            <span className="text-red-500">Welcome Back :</span> Godswill
+            <span className="text-red-500">Welcome Back :</span> David
           </h2>
           
           {/* Application Status */}

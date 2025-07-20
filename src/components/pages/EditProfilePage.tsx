@@ -7,8 +7,8 @@ import { toast } from "sonner";
 
 export function EditProfilePage() {
   const [formData, setFormData] = useState({
-    firstName: "DAVID",
-    lastName: "ORANYELI",
+    firstName: "ORANYELI",
+    lastName: "DAVID AFAM",
     contactNumber: "",
     email: ""
   });
@@ -25,7 +25,8 @@ export function EditProfilePage() {
   };
 
   return (
-    <div className="flex-1 bg-dashboard-main p-6">
+    <div className="min-h-screen bg-dashboard-main">
+      <div className="flex-1 bg-dashboard-main p-6">
       <Card className="bg-dashboard-content shadow-sm max-w-4xl mx-auto">
         <CardHeader className="border-b">
           <div className="flex justify-between items-center">
@@ -105,6 +106,7 @@ export function EditProfilePage() {
           </div>
         </CardContent>
       </Card>
+      </div>
     </div>
   );
 }
