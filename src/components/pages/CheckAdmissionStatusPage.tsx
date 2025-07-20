@@ -1,3 +1,6 @@
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import applicantPassport from "@/assets/applicant-passport.jpg";
+
 export function CheckAdmissionStatusPage() {
   return (
     <div className="flex-1 bg-dashboard-main p-6">
@@ -77,7 +80,7 @@ export function CheckAdmissionStatusPage() {
               <div className="text-sm text-gray-600 mb-2">Applicant's Passport</div>
               <div className="w-32 h-40 mx-auto rounded overflow-hidden border border-gray-300">
                 <img 
-                  src="/src/assets/applicant-passport.jpg" 
+                  src={applicantPassport} 
                   alt="Applicant's Passport Photo" 
                   className="w-full h-full object-cover"
                 />

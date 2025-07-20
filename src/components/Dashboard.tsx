@@ -16,6 +16,7 @@ import { EditFormPage1 } from "./pages/EditFormPage1";
 import { EditFormPage2 } from "./pages/EditFormPage2";
 import { EditPassportPicPage1 } from "./pages/EditPassportPicPage1";
 import { EditPassportPicPage2 } from "./pages/EditPassportPicPage2";
+import { EditProfilePage } from "./pages/EditProfilePage";
 
 export function Dashboard() {
   const [activeItem, setActiveItem] = useState("dashboard");
@@ -52,6 +53,8 @@ export function Dashboard() {
         return <EditPassportPicPage1 />;
       case "edit-passport-pic-page-2":
         return <EditPassportPicPage2 />;
+      case "edit-profile":
+        return <EditProfilePage />;
       default:
         return <DashboardPage />;
     }
