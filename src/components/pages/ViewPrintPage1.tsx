@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import applicantPassport from "@/assets/applicant-passport.jpg";
+import applicantPassport from "@/assets/applicant-passport.jpeg";
 
 export function ViewPrintPage1() {
   return (

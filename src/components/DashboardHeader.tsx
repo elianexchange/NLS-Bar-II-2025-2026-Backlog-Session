@@ -1,7 +1,7 @@
 import { Maximize2, Eye, User, LogOut, UserPen, KeyRound } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import applicantPassport from "@/assets/applicant-passport.jpg";
+import applicantPassport from "@/assets/applicant-passport.jpeg";
 
 export function DashboardHeader() {
   const [showDropdown, setShowDropdown] = useState(false);

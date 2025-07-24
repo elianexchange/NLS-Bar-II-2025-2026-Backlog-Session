@@ -6,7 +6,7 @@ export function CheckChamberPostingPage() {
           Check Chamber Posting
         </h2>
         <p className="text-dashboard-text-secondary">
-          Chamber posting information will be displayed here.
+          {/* Chamber posting information will be displayed here. */}
         </p>
       </div>
     </div>

@@ -6,7 +6,7 @@ export function CheckCourtPostingPage() {
           Check Court Posting
         </h2>
         <p className="text-dashboard-text-secondary">
-          Court posting information will be displayed here.
+          {/* Court posting information will be displayed here. */}
         </p>
       </div>
     </div>

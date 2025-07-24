@@ -35,7 +35,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
       {/* Header */}
       <div className="bg-gray-800 px-6 py-4 flex items-center justify-between">
         <h1 className="text-white text-lg font-medium">
-          BAR PART II 2024/2025 Backlog Session | User login
+          BAR PART II 2025/2026 Backlog Session | User login
         </h1>
         <ArrowLeft className="text-white w-6 h-6" />
       </div>
