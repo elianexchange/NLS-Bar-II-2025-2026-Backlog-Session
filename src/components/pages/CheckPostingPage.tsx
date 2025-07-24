@@ -27,7 +27,7 @@ export function CheckPostingPage() {
             <div>
               <label className="block text-sm text-gray-600 mb-1">Remarks</label>
               <div className="bg-gray-100 p-3 rounded text-sm">
-                You are required to complete Section D of your Application form (office or position, Employment, post held and submit to your Campus of posting with your name and
+                You are required to complete Section D of your Application form (office or position, Employment, post held and submit to your Campus of posting with your name and and University written on it.) 
               </div>
             </div>
 
