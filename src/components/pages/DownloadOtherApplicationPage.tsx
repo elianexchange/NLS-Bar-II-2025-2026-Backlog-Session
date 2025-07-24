@@ -1,4 +1,4 @@
-import nlsLogo from "@/assets/nls-logo.png";
+import favicon from '/favicon.ico';
 
 export function DownloadOtherApplicationPage() {
   return (
@@ -35,7 +35,7 @@ export function DownloadOtherApplicationPage() {
           {/* Logo */}
           <div className="flex justify-center">
             <img 
-              src={nlsLogo} 
+              src={favicon} 
               alt="Nigerian Law School Logo" 
               className="w-20 h-20 object-contain"
             />
@@ -43,7 +43,7 @@ export function DownloadOtherApplicationPage() {
 
           {/* Course Title */}
           <h5 className="text-sm font-medium text-dashboard-text-primary max-w-2xl mx-auto">
-            APPLICATION FOR ADMISSION TO THE 2024/2025 background Session BAR PART II COURSE
+            APPLICATION FOR ADMISSION TO THE 2025/2026 background Session BAR PART II COURSE
           </h5>
 
           {/* Instructions */}

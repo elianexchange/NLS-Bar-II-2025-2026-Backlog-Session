@@ -30,11 +30,9 @@ export function CheckAdmissionStatusPage() {
                   <div className="text-red-600 font-medium">BWARI, P.M.B. 170 GARKI, ABUJA NIGERIA.</div>
                 </div>
                 <div className="w-16 h-16 mx-auto mb-2">
-                  <div className="w-full h-full bg-amber-700 rounded-full flex items-center justify-center">
-                    <div className="text-white text-xs">SEAL</div>
-                  </div>
+                  <img src="/favicon.ico" alt="Seal" className="w-full h-full rounded-full object-cover" />
                 </div>
-                <div className="text-sm text-gray-600">BAR II 2024/2025 POSTING STATUS</div>
+                <div className="text-sm text-gray-600">BAR II 2025/2026 POSTING STATUS</div>
               </div>
 
               <div className="space-y-4">
@@ -45,7 +43,7 @@ export function CheckAdmissionStatusPage() {
 
                 <div>
                   <label className="block text-sm text-gray-600 mb-1">Application Number</label>
-                  <div className="bg-gray-100 p-2 rounded">AG/2024A/572297</div>
+                  <div className="bg-gray-100 p-2 rounded">AG/2025A/672267</div>
                 </div>
 
                 <div className="grid grid-cols-4 gap-4">
@@ -69,14 +67,14 @@ export function CheckAdmissionStatusPage() {
 
                 <div>
                   <label className="block text-sm text-gray-600 mb-1">Posting</label>
-                  <div className="bg-gray-100 p-2 rounded text-center">Yenegoa</div>
+                  <div className="bg-gray-100 p-2 rounded text-center">Abuja</div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="w-64">
-            <div className="bg-red-100 p-4 rounded-lg text-center">
+            <div className="p-4 rounded-lg text-center">
               <div className="text-sm text-gray-600 mb-2">Applicant's Passport</div>
               <div className="w-32 h-40 mx-auto rounded overflow-hidden border border-gray-300">
                 <img 

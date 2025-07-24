@@ -17,7 +17,7 @@ export function ViewPrintPage1() {
               </div>
             </div>
             
-            <h2 className="text-base font-bold text-red-600">APPLICATION FOR ADMISSION TO THE 2024/2025 BAR PART II ( Backlog Session) COURSE</h2>
+            <h2 className="text-base font-bold text-red-600">APPLICATION FOR ADMISSION TO THE 2025/2026 BAR PART II ( Backlog Session) COURSE</h2>
             
             <p className="text-sm text-gray-700 mt-4">
               To be completed by every applicant and returned to the Secretary, Council of Legal Education,
@@ -28,14 +28,14 @@ export function ViewPrintPage1() {
             
             <p className="text-xs text-gray-600 mt-2">
               together with two coloured passport size photographs measuring 2ins x 1.5ins (which must bear the applicant's full name and signature),
-              not later than Friday, _______, 2024. Failure to complete this form correctly would delay and may adversely affect processing of an application.
+              not later than Friday, _______, 2025. Failure to complete this form correctly would delay and may adversely affect processing of an application.
               The General information notice must be read carefully and followed when completing this form.
             </p>
             
             <div className="flex justify-end mt-4">
               <div className="text-right">
                 <p className="text-sm font-semibold">Applicant's Passport</p>
-                <div className="w-24 h-32 border-2 border-gray-300 bg-red-100 flex items-center justify-center mt-2">
+                <div className="w-24 h-32  flex items-center justify-center mt-2">
                   <div className="w-20 h-28 bg-white border border-gray-400 overflow-hidden">
                     <img 
                       src={applicantPassport} 
@@ -52,7 +52,7 @@ export function ViewPrintPage1() {
         <CardContent className="p-6">
           <div className="space-y-6">
             <div className="border-b pb-2">
-              <h3 className="font-semibold">Matric Number: LAW170174</h3>
+              <h3 className="font-semibold">Matric Number: LAW190319</h3>
             </div>
             
             <div>
@@ -61,19 +61,19 @@ export function ViewPrintPage1() {
               <div className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">Secondary School Attended:</span> OGU GRAMMAR SCHOOL, OGU</p>
+                    <p><span className="font-semibold">Secondary School Attended:</span> FAITH ACADEMY DAY SECONDARY SCHOOL</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Town / City in Which Situated:</span> OGU (ATISSA ), YENAGOA BAYELSA STATE</p>
+                    <p><span className="font-semibold">Town / City in Which Situated:</span> KUBWA (ABUJA ), F.C.T ABUJA</p>
                   </div>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">From:</span> 2010</p>
+                    <p><span className="font-semibold">From:</span> 2013</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">To:</span> 2016</p>
+                    <p><span className="font-semibold">To:</span> 2019</p>
                   </div>
                 </div>
                 
@@ -93,7 +93,7 @@ export function ViewPrintPage1() {
                     <tbody>
                       <tr>
                         <td className="border border-gray-300 p-2">Secondary School Subject 1: ENGLISH LANGUAGE</td>
-                        <td className="border border-gray-300 p-2">C5</td>
+                        <td className="border border-gray-300 p-2">C4</td>
                       </tr>
                       <tr>
                         <td className="border border-gray-300 p-2">Secondary School Subject 2: MATHEMATICS</td>
@@ -101,27 +101,31 @@ export function ViewPrintPage1() {
                       </tr>
                       <tr>
                         <td className="border border-gray-300 p-2">Secondary School Subject 3: CIVIC EDUCATION</td>
-                        <td className="border border-gray-300 p-2">D7</td>
+                        <td className="border border-gray-300 p-2">C5</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 p-2">Secondary School Subject 4: BIOLOGY</td>
-                        <td className="border border-gray-300 p-2">C4</td>
-                      </tr>
-                      <tr>
-                        <td className="border border-gray-300 p-2">Secondary School Subject 5: CHRISTIAN RELIGIOUS STUDIES</td>
+                        <td className="border border-gray-300 p-2">Secondary School Subject 4: GEOGRAPHY</td>
                         <td className="border border-gray-300 p-2">C6</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 p-2">Secondary School Subject 6: ECONOMICS</td>
-                        <td className="border border-gray-300 p-2">D7</td>
+                        <td className="border border-gray-300 p-2">Secondary School Subject 5: CHRISTIAN RELIGIOUS STUDIES</td>
+                        <td className="border border-gray-300 p-2">C4</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-2">Secondary School Subject 6: GOVERNMENT</td>
+                        <td className="border border-gray-300 p-2">C4</td>
                       </tr>
                       <tr>
                         <td className="border border-gray-300 p-2">Secondary School Subject 7: LITERATURE-IN-ENGLISH</td>
                         <td className="border border-gray-300 p-2">C5</td>
                       </tr>
                       <tr>
-                        <td className="border border-gray-300 p-2">Secondary School Subject 8: MARKETING</td>
+                        <td className="border border-gray-300 p-2">Secondary School Subject 8: PAINTING AND DECORATING</td>
                         <td className="border border-gray-300 p-2">B3</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-2">Secondary School Subject 9: COMPUTER STUDIES</td>
+                        <td className="border border-gray-300 p-2">C6</td>
                       </tr>
                       <tr>
                         <td className="border border-gray-300 p-2">Secondary School Subject 9:</td>

@@ -52,7 +52,7 @@ export function CheckPostingPage() {
 
             <div>
               <label className="block text-sm text-gray-600 mb-1">Application Number</label>
-              <div className="bg-gray-100 p-3 rounded text-center">AG/2024A/572297</div>
+              <div className="bg-gray-100 p-3 rounded text-center">AG/2025A/672267</div>
             </div>
           </div>
         </div>

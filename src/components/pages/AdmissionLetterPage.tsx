@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import applicantPassport from "@/assets/applicant-passport.jpeg";
+import signatureImg from "@/assets/signature.png";
 
 export function AdmissionLetterPage() {
   return (
@@ -26,11 +27,9 @@ export function AdmissionLetterPage() {
                   <div className="text-red-600 font-medium">BWARI, P.M.B. 170 GARKI, ABUJA NIGERIA.</div>
                 </div>
                 <div className="w-16 h-16 mx-auto mb-4">
-                  <div className="w-full h-full bg-amber-700 rounded-full flex items-center justify-center">
-                    <div className="text-white text-xs">SEAL</div>
-                  </div>
+                  <img src="/favicon.ico" alt="Seal" className="w-full h-full rounded-full object-cover" />
                 </div>
-                <div className="text-red-600 font-bold text-lg mb-8">BAR PART II 2024/2025 COURSE</div>
+                <div className="text-red-600 font-bold text-lg mb-8">BAR PART II 2025/2026 COURSE</div>
               </div>
 
               <div className="text-left space-y-4">
@@ -46,15 +45,15 @@ export function AdmissionLetterPage() {
                 </div>
 
                 <div className="text-sm space-y-4">
-                  <div><strong>OFFER OF ADMISSION YEAR 2024 Backlog - BAR PART II COURSE</strong></div>
+                  <div><strong>OFFER OF ADMISSION YEAR 2025 Backlog - BAR PART II COURSE</strong></div>
 
                   <div>
                     Further to your application for admission to this institution, I am pleased to inform you that you have 
-                    been offered admission to the 2024/2025 academic session of the school.
+                    been offered admission to the 2025/2026 academic session of the school.
                   </div>
 
                   <div>
-                    The course will commence on Monday May 27 2024. You have been posted to _Yenegoa
+                    The course will commence on Monday July 28 2025. You have been posted to _Abuja
                   </div>
 
                   <div>
@@ -79,7 +78,7 @@ export function AdmissionLetterPage() {
                   <div className="mt-8">
                     <div>Yours faithfully,</div>
                     <div className="mt-4 mb-2">
-                      <div className="text-2xl font-script">Signature</div>
+                      <img src={signatureImg} alt="Signature" className="h-12" />
                     </div>
                     <div className="text-sm">Ag. Secretary To Council/Director of Admin</div>
                   </div>
@@ -89,7 +88,7 @@ export function AdmissionLetterPage() {
           </div>
 
           <div className="w-64">
-            <div className="bg-red-100 p-4 rounded-lg text-center mb-4">
+            <div className=" p-4 rounded-lg text-center mb-4">
               <div className="text-sm text-gray-600 mb-2">Applicant's Passport</div>
               <div className="w-32 h-40 mx-auto rounded overflow-hidden border border-gray-300">
                 <img 
@@ -100,7 +99,7 @@ export function AdmissionLetterPage() {
               </div>
             </div>
             <div className="text-right text-sm text-gray-600">
-              <div>Our Ref No.: CLE/ST/BII/AG/2024A/572297</div>
+              <div>Our Ref No.: CLE/ST/BII/AG/2025A/672267</div>
               <div className="mt-4">Date: 2025-07-18</div>
             </div>
           </div>

@@ -31,7 +31,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900">
+    <div className="min-h-screen" style={{ backgroundColor: '#3ee0ef' }}>
       {/* Header */}
       <div className="bg-gray-800 px-6 py-4 flex items-center justify-between">
         <h1 className="text-white text-lg font-medium">
@@ -45,7 +45,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
         <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md">
           <div className="text-center mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">
-              BAR II 2024 2025 Backlog Session
+              BAR II 2025 2026 Backlog Session
             </h2>
             <h3 className="text-lg text-gray-600">User Login</h3>
           </div>

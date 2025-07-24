@@ -13,11 +13,11 @@ export function ViewPrintPage2() {
             
             <div className="flex justify-center my-4">
               <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xs">CLE</span>
+                <img src="/favicon.ico" alt="Seal" className="w-full h-full rounded-full object-cover" />
               </div>
             </div>
             
-            <h2 className="text-base font-bold text-red-600">APPLICATION FOR ADMISSION TO THE 2024/2025 BAR PART II COURSE</h2>
+            <h2 className="text-base font-bold text-red-600">APPLICATION FOR ADMISSION TO THE 2025/2026 BAR PART II COURSE</h2>
             
             <p className="text-sm text-gray-700 mt-4">
               To be completed by every applicant and returned to the Secretary, Council of Legal Education,
@@ -28,14 +28,14 @@ export function ViewPrintPage2() {
             
             <p className="text-xs text-gray-600 mt-2">
               together with two coloured passport size photographs measuring 2ins x 1.5ins (which must bear the applicant's full name and signature),
-              not later than Friday, _______, 2024. Failure to complete this form correctly would delay and may adversely affect processing of an application.
+              not later than Friday, _______, 2025. Failure to complete this form correctly would delay and may adversely affect processing of an application.
               The General information notice must be read carefully and followed when completing this form.
             </p>
             
             <div className="flex justify-end mt-4">
               <div className="text-right">
                 <p className="text-sm font-semibold">Applicant's Passport</p>
-                <div className="w-24 h-32 border-2 border-gray-300 bg-red-100 flex items-center justify-center mt-2">
+                <div className="w-24 h-32 flex items-center justify-center mt-2">
                   <div className="w-20 h-28 bg-white border border-gray-400 overflow-hidden">
                     <img 
                       src={applicantPassport} 
@@ -52,7 +52,7 @@ export function ViewPrintPage2() {
         <CardContent className="p-6">
           <div className="space-y-6">
             <div className="border-b pb-2">
-              <h3 className="font-semibold">Matric Number: LAW170174</h3>
+              <h3 className="font-semibold">Matric Number: LAW190319</h3>
             </div>
             
             <div>
@@ -64,13 +64,13 @@ export function ViewPrintPage2() {
                     <p><span className="font-semibold">Title:</span> MR.</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Surname:</span> ORANYELI</p>
+                    <p><span className="font-semibold">Surname:</span> AFAM</p>
                   </div>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">Other Names:</span> GODSWILL NEHIDUPHINI</p>
+                    <p><span className="font-semibold">Other Names:</span> ORANYELI DAVID</p>
                   </div>
                   <div>
                     <p><span className="font-semibold">Have you ever applied for Admission into the Nigerian Law School? Yes/No:</span> NO</p>
@@ -82,30 +82,30 @@ export function ViewPrintPage2() {
                     <p><span className="font-semibold">If yes, state period:</span> NO</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Present Contact Address :</span></p>
+                    <p><span className="font-semibold">Present Contact Address :</span>  AMAC HOUSING ESTATE LUGBE ABUJA</p>
                   </div>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">Telephone Number:</span> 09069789316</p>
+                    <p><span className="font-semibold">Telephone Number:</span> 07059505914</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Email Address:</span> EBIYEGODSWILL9@GMAIL.COM</p>
+                    <p><span className="font-semibold">Email Address:</span> davidoranyeli11@gmail.com</p>
                   </div>
                 </div>
                 
                 <div className="text-sm text-gray-600 p-2 bg-gray-50 rounded">
                   <p>The School will use this address for all correspondence with you and for notification of change in address as received.</p>
-                  <p><span className="font-semibold">Home Town:</span> OGU</p>
+                  <p><span className="font-semibold">Home Town:</span> Umungada</p>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">State / Local Government:</span> bayelsa_kolokuma/opokuma</p>
+                    <p><span className="font-semibold">State / Local Government:</span> Oshimili south</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Home Address in Nigeria:</span> NO.1, NEW SURVIVORS' HOSPITAL ROAD IGBOGENE, YENAGOA BAYELSA STATE</p>
+                    <p><span className="font-semibold">Home Address in Nigeria:</span> AMAC HOUSING ESTATE LUGBE ABUJA</p>
                   </div>
                 </div>
                 
@@ -122,7 +122,7 @@ export function ViewPrintPage2() {
                     <p><span className="font-semibold">Adult photocopy of the Registration / Identification certificate on the next page:</span></p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Date of Birth:</span> 23/08/23</p>
+                    <p><span className="font-semibold">Date of Birth:</span> 27/05/2002</p>
                   </div>
                 </div>
                 
@@ -137,15 +137,15 @@ export function ViewPrintPage2() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">Next-of-Kin Name:</span> DR. EBIYE SAWYER, RELATIONSHIP: FATHER</p>
+                    <p><span className="font-semibold">Next-of-Kin Name:</span> MR. CHARLES ORANYELI, RELATIONSHIP: FATHER</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Next-of-Kin Telephone Number:</span> 08062885349</p>
+                    <p><span className="font-semibold">Next-of-Kin Telephone Number:</span> 08034724309</p>
                   </div>
                 </div>
                 
                 <div>
-                  <p><span className="font-semibold">Address:</span> NO.1, NEW SURVIVORS' HOSPITAL ROAD IGBOGENE, YENAGOA BAYELSA STATE</p>
+                  <p><span className="font-semibold">Address:</span> AMAC HOUSING ESTATE LUGBE ABUJA</p>
                 </div>
                 
                 <div className="space-y-2">
@@ -157,10 +157,10 @@ export function ViewPrintPage2() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p><span className="font-semibold">First Choice:</span> Yenagoa</p>
+                    <p><span className="font-semibold">First Choice:</span> Abuja</p>
                   </div>
                   <div>
-                    <p><span className="font-semibold">Second Choice:</span> N/A (Blank)</p>
+                    <p><span className="font-semibold">Second Choice:</span> Port-Harcourt</p>
                   </div>
                 </div>
                 
@@ -191,7 +191,7 @@ export function ViewPrintPage2() {
                 </div>
                 
                 <div>
-                  <p><span className="font-semibold">Degree/Class:</span> Third_Class</p>
+                  <p><span className="font-semibold">Degree/Class:</span> Second_Class_Upper</p>
                 </div>
                 
                 <div className="text-sm p-2 bg-gray-50 rounded">
@@ -202,7 +202,7 @@ export function ViewPrintPage2() {
                   <p><span className="font-semibold">One provision of the out influence on us will not enter times 5 till and 62</span></p>
                   
                   <div>
-                    <p><span className="font-semibold">Name Of Head of Law Faculty:</span> DR. S.O. EBIENI</p>
+                    <p><span className="font-semibold">Name Of Head of Law Faculty:</span> DR. THEOPHILUS</p>
                   </div>
                   
                   <div>
@@ -220,7 +220,7 @@ export function ViewPrintPage2() {
                   
                   <div className="mt-4 space-y-2">
                     <p className="text-sm">I ORANYELI DAVID AFAM,</p>
-                    <p className="text-sm">of NO.1, NEW SURVIVORS' HOSPITAL ROAD IGBOGENE, YENAGOA BAYELSA STATE</p>
+                    <p className="text-sm">of AMAC HOUSING ESTATE LUGBE, ABUJA</p>
                     <p className="text-sm">I hereby solemnly declare as follows:-</p>
                   </div>
                   

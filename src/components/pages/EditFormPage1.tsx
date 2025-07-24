@@ -9,26 +9,28 @@ import { toast } from "sonner";
 export function EditFormPage1() {
   const [formData, setFormData] = useState({
     profile: "ORANYELI DAVID AFAM",
-    secondarySchool: "OGU GRAMMAR SCHOOL, OGU",
-    secondarySchoolLocation: "OGU (ATISSA ), YENAGOA BAYELSA STATE",
-    secondarySchoolFrom: "2010",
-    secondarySchoolTo: "2016",
-    secondarySchoolSubject9: "",
-    secondarySchoolSubject9Grade: "MARKETING",
-    secondarySchoolSubject8: "",
+    secondarySchool: "FAITH ACADEMY DAY SECONDARY SCHOOL",
+    secondarySchoolLocation: "KUBWA, F.C.T, ABUJA",
+    secondarySchoolFrom: "2013",
+    secondarySchoolTo: "2019",
+    secondarySchoolSubject9: "C6",
+    secondarySchoolSubject9Grade: "COMPUTER STUDIES",
+    secondarySchoolSubject8: "PAINTING AND DECORATING",
     secondarySchoolSubject8Grade: "B3",
     secondarySchoolSubject7: "LITERATURE-IN-ENGLISH",
     secondarySchoolSubject7Grade: "C5",
-    secondarySchoolSubject6: "ECONOMICS",
-    secondarySchoolSubject6Grade: "D7",
+    secondarySchoolSubject6: "GOVERNMENT",
+    secondarySchoolSubject6Grade: "C4",
     secondarySchoolSubject5: "CHRISTIAN RELIGIOUS STUDIES",
     secondarySchoolSubject5Grade: "C6",
-    secondarySchoolSubject4: "BIOLOGY",
-    secondarySchoolSubject4Grade: "C4",
+    secondarySchoolSubject4: "GEOGRAPHY",
+    secondarySchoolSubject4Grade: "C6",
     secondarySchoolSubject3: "CIVIC EDUCATION",
-    secondarySchoolSubject3Grade: "D7",
+    secondarySchoolSubject3Grade: "C5",
+    secondarySchoolSubject2: "MATHEMATICS",
+    secondarySchoolSubject2Grade: "C4",
     secondarySchoolSubject1: "ENGLISH LANGUAGE",
-    secondarySchoolSubject1Grade: "C5",
+    secondarySchoolSubject1Grade: "C4",
     qualification: "JAMB",
     certificateObtained: "NATIONAL EXAMINATION COUNCIL (NECO)"
   });
@@ -213,6 +215,21 @@ export function EditFormPage1() {
                 <Input
                   value={formData.secondarySchoolSubject3Grade}
                   onChange={(e) => handleInputChange("secondarySchoolSubject3Grade", e.target.value)}
+                />
+              </div>
+              <div>
+                <Label>Secondary School Subject 2</Label>
+                <Input
+                  value={formData.secondarySchoolSubject2}
+                  onChange={(e) => handleInputChange("secondarySchoolSubject2", e.target.value)}
+                />
+              </div>
+
+              <div>
+                <Label>Secondary School Subject 2 Grade</Label>
+                <Input
+                  value={formData.secondarySchoolSubject2Grade}
+                  onChange={(e) => handleInputChange("secondarySchoolSubject2Grade", e.target.value)}
                 />
               </div>
               <div>
