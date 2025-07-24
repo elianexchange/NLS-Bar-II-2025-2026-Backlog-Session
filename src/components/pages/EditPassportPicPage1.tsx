@@ -11,7 +11,7 @@ export function EditPassportPicPage1() {
     surname: "ORANYELI",
     otherNames: "",
     gender: "",
-    dob: "23-Aug"
+    dob: "27-May"
   });
 
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
