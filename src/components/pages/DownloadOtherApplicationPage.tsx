@@ -1,5 +1,14 @@
 import favicon from '/favicon.ico';
 
+const pdfs = [
+  { label: 'Download Medical Form', file: '/src/assets/MedicalForm2024.pdf' },
+  { label: 'Download Form B', file: '/src/assets/FormB.pdf' },
+  { label: 'Download Form B1', file: '/src/assets/FormB1.pdf' },
+  { label: 'Download Form B2', file: '/src/assets/FormB2.pdf' },
+  { label: 'Download Form A1 Section C', file: '/src/assets/FormA1SectionC.pdf' },
+  { label: 'Download Form A1 Section D', file: '/src/assets/FormALastSection.pdf' },
+];
+
 export function DownloadOtherApplicationPage() {
   return (
     <div className="flex-1 bg-dashboard-main p-6">
@@ -63,36 +72,19 @@ export function DownloadOtherApplicationPage() {
 
           {/* Download Links */}
           <div className="space-y-3 pt-4">
-            <div>
-              <button className="text-dashboard-accent hover:underline font-medium">
-                Download Medical Form
-              </button>
-            </div>
-            <div>
-              <button className="text-dashboard-accent hover:underline font-medium">
-                Download Form B
-              </button>
-            </div>
-            <div>
-              <button className="text-dashboard-accent hover:underline font-medium">
-                Download Form B1
-              </button>
-            </div>
-            <div>
-              <button className="text-dashboard-accent hover:underline font-medium">
-                Download Form B2
-              </button>
-            </div>
-            <div>
-              <button className="text-dashboard-accent hover:underline font-medium">
-                Download Form A1 Section C
-              </button>
-            </div>
-            <div>
-              <button className="text-dashboard-accent hover:underline font-medium">
-                Download Form A1 Section D
-              </button>
-            </div>
+            {pdfs.map((pdf, idx) => (
+              <div key={idx}>
+                <a
+                  href={pdf.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                  className="text-dashboard-accent hover:underline font-medium"
+                >
+                  {pdf.label}
+                </a>
+              </div>
+            ))}
           </div>
         </div>
 

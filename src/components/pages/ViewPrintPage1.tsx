@@ -13,7 +13,7 @@ export function ViewPrintPage1() {
             
             <div className="flex justify-center my-4">
               <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xs">CLE</span>
+                <img src="/favicon.ico" alt="Seal" className="w-full h-full rounded-full object-cover" />
               </div>
             </div>
             
