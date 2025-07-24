@@ -1,12 +1,12 @@
 import favicon from '/favicon.ico';
 
 const pdfs = [
-  { label: 'Download Medical Form', file: '/src/assets/MedicalForm2024.pdf' },
-  { label: 'Download Form B', file: '/src/assets/FormB.pdf' },
-  { label: 'Download Form B1', file: '/src/assets/FormB1.pdf' },
-  { label: 'Download Form B2', file: '/src/assets/FormB2.pdf' },
-  { label: 'Download Form A1 Section C', file: '/src/assets/FormA1SectionC.pdf' },
-  { label: 'Download Form A1 Section D', file: '/src/assets/FormALastSection.pdf' },
+  { label: 'Download Medical Form', file: '/MedicalForm2024.pdf' },
+  { label: 'Download Form B', file: '/FormB.pdf' },
+  { label: 'Download Form B1', file: '/FormB1.pdf' },
+  { label: 'Download Form B2', file: '/FormB2.pdf' },
+  { label: 'Download Form A1 Section C', file: '/FormA1SectionC.pdf' },
+  { label: 'Download Form A1 Section D', file: '/FormALastSection.pdf' },
 ];
 
 export function DownloadOtherApplicationPage() {
