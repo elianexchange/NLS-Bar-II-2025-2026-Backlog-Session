@@ -5,9 +5,9 @@ export function ApplyHerePage1() {
         <h2 className="text-xl font-semibold text-dashboard-text-primary mb-6">
           Apply Here Page 1
         </h2>
-        <p className="text-dashboard-text-secondary">
+        {/* <p className="text-dashboard-text-secondary">
           Application form page 1 will be displayed here.
-        </p>
+        </p> */}
       </div>
     </div>
   );

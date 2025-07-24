@@ -5,9 +5,9 @@ export function ApplyPage2() {
         <h2 className="text-xl font-semibold text-dashboard-text-primary mb-6">
           Apply Page 2
         </h2>
-        <p className="text-dashboard-text-secondary">
+        {/* <p className="text-dashboard-text-secondary">
           Application form page 2 will be displayed here.
-        </p>
+        </p> */}
       </div>
     </div>
   );
